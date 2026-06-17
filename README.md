@@ -1,0 +1,2 @@
+# CORDIC_UART_FPGA
+基于FPGA的CORDIC定点运算，串口上下位机交互，按键切换旋转模式与向量模式

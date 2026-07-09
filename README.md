@@ -9,9 +9,6 @@
 
 通过板载按键（作者板子没有拨码开关）切换CORDIC两种经典工作模式，同时LED显示当前的工作模式
 
-## 仿真验证结果
-![仿真波形图](https://github.com/Frsheng/CORDIC_UART_FPGA/blob/main/doc/waveform.png)
-
 ### 旋转模式
 给定坐标与旋转角度，输出旋转后的新坐标（特殊值x=1,y=0可用于计算三角函数值）
 ### 向量模式
@@ -22,5 +19,9 @@
 串口波特率：9600
 
 数据格式：交互时X，Y，Z都是32bit的有符号定点小数，小数点后16位
+
+## 仿真验证结果
+![仿真波形图](https://github.com/Frsheng/CORDIC_UART_FPGA/blob/main/doc/waveform.png)
+
 ## 科普
 坐标旋转数字计算机CORDIC(COordinate Rotation DIgital Computer)算法，通过移位和加减运算，能递归计算常用函数值，如Sin，Cos，Sinh，Cosh等函数，由J. Volder于1959年提出，首先用于导航系统，使得矢量的旋转和定向运算不需要做查三角函数表、乘法、开方及反三角函数等复杂运算。J. Walther在1974年用它研究了一种能计算出多种超越函数的统一算法。

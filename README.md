@@ -10,7 +10,7 @@
 通过板载按键（作者板子没有拨码开关）切换CORDIC两种经典工作模式，同时LED显示当前的工作模式
 
 ## 仿真验证结果
-![仿真波形图](./doc/waveform.png)
+![仿真波形图](https://github.com/Frsheng/CORDIC_UART_FPGA/blob/main/doc/waveform.png)
 
 ### 旋转模式
 给定坐标与旋转角度，输出旋转后的新坐标（特殊值x=1,y=0可用于计算三角函数值）
